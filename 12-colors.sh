@@ -12,7 +12,7 @@ CHECK-ROOT(){
         echo "please run the script with root privileges"
         exit 1
     fi
-}
+            }
 
 VALIDATE(){
     if [ $1 -ne 0 ]
