@@ -1,8 +1,8 @@
 #!/bin/bash
 
 USERID=$(id -u)
-R="\e\[31m]"
-G="\e\[32m]"
+R="\e\[31m"
+G="\e\[32m"
 
 #echo "USER ID is: $USERID"
 
