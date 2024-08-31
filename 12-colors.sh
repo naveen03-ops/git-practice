@@ -24,7 +24,7 @@ VALIDATE(){
     fi
 }
 
-CHECK-ROOT()
+CHECK-ROOT
 
 if [ $USERID -ne 0 ]
 then
