@@ -6,7 +6,7 @@ G="\e[32m"
 N="\e[0m"
 #echo "USER ID is: $USERID"
 
-CHECK-ROOT(){
+CHECK_ROOT(){
     if [ $USERID -ne 0]
     then
         echo "please run the script with root privileges"
@@ -24,7 +24,7 @@ VALIDATE(){
     fi
 }
 
-CHECK-ROOT
+CHECK_ROOT
 
 # if [ $USERID -ne 0 ]
 # then
